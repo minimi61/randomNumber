@@ -1,0 +1,132 @@
+body{
+    background-image: url('https://okta-numberguessing-game.netlify.app/image/soju.jpeg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'HSGyoulnoonkot';
+    display: flex;
+    flex-direction: column;
+}
+@font-face {
+    font-family: 'HSGyoulnoonkot';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSGyoulnoonkot.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+
+    background-color: rgba( 255, 255, 255, 0.5 );
+    margin: auto;
+    border: 10px solid white;
+    border-radius: 25px;
+}
+
+.koalnu{
+    font-weight: bold;
+    font-size: 5vw;
+    color: blue;
+}
+.alcohol{
+    font-size: 3em;
+}
+.upndown{
+    font-size: 3em;
+}
+.death{
+    color: red
+}
+#result-message{
+    font-size: 1.5em;
+}
+#remain-oppor{
+    font-size: 1.3em;
+}
+#input-box{
+    width: 100%;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: aliceblue; */
+    text-align: center;
+    
+}
+input::placeholder{
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+#button-go{
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 200;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    background-color: green;
+    /* margin-bottom: 20px; */
+
+}
+#button-go:hover{
+    background-color: rgb(0, 83, 0);
+}
+#button-reset{
+    width: 70px;
+    height: 50px;
+    /* padding: 10px; */
+    font-size: 1.5em;
+    font-weight: 200;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    background-color: yellow;
+    text-align: center;
+    /* margin-top: 20px; */
+    font-family: 'HSGyoulnoonkot';
+
+}
+#button-reset:hover{
+    background-color: rgb(126, 126, 3);
+}
+
+@media(max-width:48rem){
+    /* .container{
+        width: 500px;
+        height: 830px;
+        background-color: rgba( 255, 255, 255, 0.5 );
+        border: 10px solid white;
+        border-radius: 25px;
+    } */
+    .koalnu{
+        margin: 20px;
+    }
+    .alcohol{
+        margin: 20px;
+    }
+    .main-img{
+        margin: 30px;
+    }
+    #result-message{
+        margin: 30px;
+    }
+    #remain-oppor{
+        margin: 30px;
+    }
+    /* #input-box{
+        width: 300px;
+    } */
+    /* #button-go{
+        width: 100px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+    } */
+    #button-reset{
+        width: 100px;
+        height: 80px;
+
+    }
+}
